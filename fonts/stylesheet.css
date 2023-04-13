@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Noto Sans Tifinagh';
+    src: url('NotoSansTifinagh-Regular.eot');
+    src: url('NotoSansTifinagh-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansTifinagh-Regular.woff2') format('woff2'),
+        url('NotoSansTifinagh-Regular.woff') format('woff'),
+        url('NotoSansTifinagh-Regular.ttf') format('truetype'),
+        url('NotoSansTifinagh-Regular.svg#NotoSansTifinagh-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
