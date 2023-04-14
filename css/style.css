@@ -836,7 +836,8 @@ main.withoutBottom
     display: -ms-flexbox;
     display: flex;
 
-    padding: 10px 15px 8px;
+    width: 35px;
+    height: 35px;
 
     border: 1px solid #68687b;
     border-radius: 50%;
@@ -1099,6 +1100,49 @@ main.withoutBottom
     justify-content: end;
 }
 
+/* Блок про клиентов */
+.client
+{
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.client__inner
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.client__right,
+.client__left
+{
+    width: 50%;
+}
+.client__map
+{
+    width: 100%;
+}
+.client__title
+{
+    font-family: 'Roboto';
+    font-size: 75px;
+    line-height: 93px;
+
+    margin-bottom: 250px;
+
+    color: white;
+}
+.client__subtitle
+{
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 28px;
+
+    width: 100%;
+    max-width: 446px;
+
+    color: #68687b;
+}
+
 /* Кейсы */
 .cays
 {
@@ -1287,6 +1331,15 @@ main.withoutBottom
 {
     margin-top: 20px;
     margin-bottom: 192px;
+}
+.obsyd.background
+{
+    margin-bottom: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    border-radius: 72px;
+    background: white;
 }
 .obsyd__title
 {
